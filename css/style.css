@@ -1,0 +1,202 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+       url('../fonts/Montserrat-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+       url('../fonts/Montserrat-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+       url('../fonts/PlayfairDisplay-Regular.woff') format('woff');
+       font-weight: 400;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../fonts/PlayfairDisplay-Italic.woff2') format('woff2'),
+       url('../fonts/PlayfairDisplay-Italic.woff') format('woff');
+       font-weight: 400;
+       font-style: italic;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
+       url('../fonts/PlayfairDisplay-Bold.woff') format('woff');
+       font-weight: 700;
+       font-style: normal;
+}
+
+:root {
+--brown: #AE7C78;
+--brown-light: #D89999;
+--white: #fff;
+--grey: #ccc;
+}
+
+body {
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--brown);
+}
+
+.list__link {
+  color: var(--brown);
+  text-decoration: none;
+}
+
+.promo__title {
+  font-family: 'Playfair Display', 'Times Nes Roman', serif;
+  font-size: 44px;
+  font-weight: normal;
+  line-height: 59px;
+}
+
+.promo-span {
+  font-style: italic;
+}
+
+.promo__subtitle {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.promo__button {
+  color: var(--white);
+  text-decoration: none;
+  background-color: var(--brown-light);
+}
+
+.advantages__text {
+  font-weight: 500;
+}
+
+.title {
+  font-family: 'Playfair Display', 'Times Nes Roman', serif;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+}
+
+.slider__title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.price {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.popular__button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--white);
+  background-color: var(--brown-light);
+  border: none;
+}
+
+.catalog__item {
+  width: 387px;
+  height: 442px;
+  border-radius: 10px;
+}
+
+.catalog__item:first-child {
+  background: url('../img/catalog-1.png') no-repeat rgba(174, 124, 120, 0.6);
+}
+
+.catalog__item:nth-child(2) {
+  background: url('../img/catalog-2.png') no-repeat rgba(174, 124, 120, 0.6);
+}
+
+.catalog__item:last-child {
+  background: url('../img/catalog-3.png') no-repeat rgba(174, 124, 120, 0.6);
+}
+
+.catalog__link {
+  text-decoration: none;
+}
+
+.catalog__list-title {
+  font-family: 'Playfair Display', 'Times Nes Roman', serif;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.catalog__text {
+  color: var(--white);
+}
+
+.discount__wrapper {
+  background-color: var(--brown);
+}
+
+.discount__title {
+  font-family: 'Playfair Display', 'Times Nes Roman', serif;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 59px;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.discont__text {
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--white);
+}
+
+.steps__text {
+  font-weight: 500;
+}
+
+.news__text {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.author {
+  font-weight: 500;
+}
+
+.contacts {
+  height: 645px;
+  background: url('../img/map.png') no-repeat var(--grey);
+}
+
+.contacts__desc {
+  font-weight: 500;
+}
+
+.phone, .email {
+  text-decoration: none;
+  color: var(--brown);
+  font-weight: 500;
+}
+
+.footer {
+  background-color: var(--brown);
+}
+
+.footer_link {
+  color: var(--white);
+  text-decoration: none;
+}
